@@ -1,0 +1,68 @@
+main {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: cursive;
+}
+.betting {
+    display: flex;
+    
+}
+.bet-button, .play-button, .reset-button {
+  background-color: #ffffff;
+  border: 1px solid #008CBA;
+  color: #008CBA;
+  padding: 5px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 20%;
+}
+
+button{
+    text-align: center;
+}
+  h3{
+      text-align: flex;
+      margin: 10px;
+      margin-left:50px;
+      padding: 10px;
+  }
+ 
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+.betting > * {
+  margin: 5px;
+ display: flex;
+padding: 5px;
+
+}
+
+.cards {
+    display: flex;
+    margin: 10px;
+}
+.cards .card {
+    padding: 10px;
+    cursor: pointer;
+}
+.cards .card.highlighted {
+    background-color: #008CBA;
+}
+
+.cards .card:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0.1;
+}
+.cards .card img {
+    width: 100px;
+}
+
+
+
